@@ -1,0 +1,7 @@
+h = open('helloworld.html', 'w' )
+
+message = """<html><head>
+</head><body><p>Hello world</p></body>
+</html>"""
+h.write(message)
+h.close()
